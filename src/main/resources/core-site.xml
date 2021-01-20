@@ -1,0 +1,46 @@
+<configuration>
+
+<property>
+  <name>fs.stocator.scheme.list</name>
+  <value>cos</value>
+</property>
+<property>
+  <name>fs.cos.impl</name>
+  <value>com.ibm.stocator.fs.ObjectStoreFileSystem</value>
+</property>
+<property>
+  <name>fs.stocator.cos.impl</name>
+  <value>com.ibm.stocator.fs.cos.COSAPIClient</value>
+</property>
+<property>
+  <name>fs.stocator.cos.scheme</name>
+  <value>cos</value>
+</property>
+
+<property>
+  <name>fs.cos.myCos.access.key</name>
+  <value>0aba66146f3b450cacebaa908046d17e</value>
+</property>
+<property>
+  <name>fs.cos.myCos.secret.key</name>
+  <value>27b804de3b329a680dbf148fd76da208f33e8a5aaaea4cbd</value>
+</property>
+
+<!-- Choose the relevant endpoint from https://cos-service.bluemix.net/endpoints -->
+<property>
+  <name>fs.cos.myCos.endpoint</name>
+  <value>http://s3-api.us-geo.objectstorage.softlayer.net</value>
+</property>
+
+<property>
+  <name>fs.cos.myCos.v2.signer.type</name>
+  <value>false</value>
+</property>
+
+<!-- This property auto creates bucket if it's not existing -->
+<property>
+  <name>fs.cos.myCos.create.bucket</name>
+  <value>true</value>
+</property>
+
+</configuration>

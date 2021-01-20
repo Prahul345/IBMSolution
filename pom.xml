@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sample.n</groupId>
+  <artifactId>IBMCos</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-sql_2.11</artifactId>
+    <version>2.4.3</version>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client -->
+<dependency>
+    <groupId>org.apache.hadoop</groupId>
+    <artifactId>hadoop-client</artifactId>
+    <version>2.7.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.ibm.stocator/stocator -->
+
+<!-- https://mvnrepository.com/artifact/com.ibm.db2.jcc/db2jcc -->
+
+  <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.2.5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.ibm.db2.jcc/db2jcc4 -->
+<!-- https://mvnrepository.com/artifact/com.ibm.db2/jcc -->
+<dependency>
+    <groupId>com.ibm.db2</groupId>
+    <artifactId>jcc</artifactId>
+    <version>11.1.4.4</version>
+</dependency>
+
+  
+  </dependencies>
+</project>
